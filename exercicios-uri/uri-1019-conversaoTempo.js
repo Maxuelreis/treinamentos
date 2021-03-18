@@ -15,20 +15,19 @@ var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
 let valor = lines.shift();
-console.log(valor);
 
-let horas = 0;
+let hora = 0;
+let minuto = 0;
 
- while (valor > 60){
-     valor = valor-60;
-     horas++;
-     horas= horas/60;  
+ if(valor >= 3600){
+    hora = parseInt(valor/3600);
 };
 
-console.log(horas);
+let restoHora = valor % 3600;
+  if(restoHora>=60){
+    minuto = parseInt(restoHora / 60);
+  }
 
-// let minutos =  / 60;
-// console.log(minutos);
+let segundo = restoHora % 60;
 
-// let segundos = resto dos minutos / 60;
-// console.log(segundos);
+console.log(`${hora}:${minuto}:${segundo}`);

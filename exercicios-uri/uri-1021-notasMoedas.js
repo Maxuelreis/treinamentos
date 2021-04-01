@@ -107,7 +107,13 @@ while(valor >= 0.01 && valor < 0.05){
 
 console.log("NOTAS:");
 console.log(`${notas100} nota(s) de R$ 100.00`);
-console.log(`${nota50} nota(s) de R$ 50.00`);
+console.log(`${nota50} nota(s) de RLeia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se C e D, ambos, forem positivos e se a variável A for par escrever a mensagem "Valores aceitos", senão escrever "Valores nao aceitos".
+
+Entrada
+Quatro números inteiros A, B, C e D.
+
+Saída
+Mostre a respectiva mensagem após a validação dos valores.$ 50.00`);
 console.log(`${nota20} nota(s) de R$ 20.00`);
 console.log(`${nota10} nota(s) de R$ 10.00`);
 console.log(`${nota5} nota(s) de R$ 5.00`);

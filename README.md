@@ -1,3 +1,3 @@
-# treinamentos
-Pasta simples de treinamentos e exercícios de programação.
-Criando Reame.md conforme exercicio aula 8 do curso Git do instrutor Bruno Orlandi
+# Exercicios Uri
+Pasta de treinamentos e exercícios de programação do onlinejudge.com.br.
+Exercícios realizados para estudo do javaScript.
